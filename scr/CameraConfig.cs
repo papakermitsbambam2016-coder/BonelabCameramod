@@ -1,8 +1,22 @@
 namespace QuestCamera;
 
-internal static class PluginInfo
+internal static class CameraConfig
 {
-    public const string Name = "QuestCamera";
-    public const string Version = "0.1.0";
-    public const string Author = "QuestCamera";
+    public static bool AutoSpawn = true;
+
+    public static float SpawnDistance = 2.0f;
+
+    public static float CameraFov = 60f;
+
+    public static float MinFov = 20f;
+
+    public static float MaxFov = 100f;
+
+    public static float ZoomAmount = 5f;
+
+    public static bool StartFrozen = false;
+
+    public static bool EnableRecording = true;
+
+    public static bool EnablePhotos = true;
 }
